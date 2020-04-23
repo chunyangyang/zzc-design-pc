@@ -4,7 +4,7 @@
  * @LastEditTime : 2020-01-06 14:49:04
  * @LastEditors  : Please set LastEditors
  * @Description: In User Settings Edit
- * @FilePath: /zzc-design-mobile/demo/webpack.config.js
+ * @FilePath: /zzc-design-pc/demo/webpack.config.js
  */
 const path = require( 'path' );
 const fs = require( 'fs' );
@@ -68,7 +68,7 @@ let config = {
 if ( ENV === 'development' ) {
     config.resolve = {
         alias: {
-            'zzc-design-mobile': path.resolve(
+            'zzc-design-pc': path.resolve(
                 __dirname,
                 '../es/index.js'
             )

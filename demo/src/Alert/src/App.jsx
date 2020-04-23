@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import '../../../config.js';
 import './index.scss';
 import '../../../style/style.scss';
-import { Alert, Button, Toast } from 'zzc-design-mobile';
+import { Alert, Button, Toast } from 'zzc-design-pc';
 
 export default class App extends Component {
 

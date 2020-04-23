@@ -10,8 +10,8 @@ const hljs = require( 'highlight.js' );
 //     css: '',
 //     editors: '001',
 //     layout: 'right',
-//     css_external: 'https://lllllamho.github.io/zzc-design-mobile/demo/dist/css/Alert.css',
-//     js_external: 'https://cdnjs.cloudflare.com/ajax/libs/react/16.5.0/umd/react.production.min.js;https://cdnjs.cloudflare.com/ajax/libs/react-dom/16.5.0/umd/react-dom.production.min.js;https://lllllamho.github.io/zzc-design-mobile/codepen/zds/js/zds.umd.js',
+//     css_external: 'https://chunyangyang.github.io/zzc-design-pc/demo/dist/css/Alert.css',
+//     js_external: 'https://cdnjs.cloudflare.com/ajax/libs/react/16.5.0/umd/react.production.min.js;https://cdnjs.cloudflare.com/ajax/libs/react-dom/16.5.0/umd/react-dom.production.min.js;https://chunyangyang.github.io/zzc-design-pc/codepen/zds/js/zds.umd.js',
 //     js_pre_processor: 'babel'
 // };
 
@@ -63,7 +63,7 @@ async function setComponentConfig ( componentList ) {
             //     currData.codepen = {
             //         ...codepenDefaultConfig,
             //         js: fs.readFileSync( codepenPath, 'utf8' ),
-            //         css_external: `https://lllllamho.github.io/zzc-design-mobile/demo/dist/css/${componentList[i]}.css`
+            //         css_external: `https://chunyangyang.github.io/zzc-design-pc/demo/dist/css/${componentList[i]}.css`
             //     };
             // }
             categoryData[currData.config.category] = categoryData[currData.config.category] ? categoryData[currData.config.category] : [];

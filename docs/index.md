@@ -1,12 +1,12 @@
-# zzc-design-mobile
+# zzc-design-pc
 
 <div class='github-box'>
     <div class='github-btn github-btn-large'>
-        <a class='gh-btn' href='https://github.com/LLLLLamHo/zzc-design-mobile' target='_blank'>
+        <a class='gh-btn' href='https://github.com/chunyangyang/zzc-design-pc' target='_blank'>
             <span class='gh-ico' aria-hidden='true'></span>
             <span class='gh-text'>Star</span>
         </a>
-        <a class='gh-count' target='_blank' href='https://github.com/LLLLLamHo/zzc-design-mobile' style='display: none;'></a>
+        <a class='gh-count' target='_blank' href='https://github.com/chunyangyang/zzc-design-pc' style='display: none;'></a>
     </div>
 </div>
 
@@ -39,10 +39,10 @@
 
 这是一个基于React实现的UI组件框架。
 
-[进入官网](https://lllllamho.github.io/zzc-design-mobile/)
+[进入官网](https://chunyangyang.github.io/zzc-design-pc/)
 
 #### 简介
-zzc-design-mobile是基于react开发的ui框架，用于租租车移动端的ui框架。
+zzc-design-pc是基于react开发的ui框架，用于租租车移动端的ui框架。
 由产品设计统一规范的移动端统一样式交互的方案。
 
 其中借鉴了antd的一些写法以及交互样式，并另外定制交互和样式。
@@ -61,21 +61,21 @@ zzc-design-mobile是基于react开发的ui框架，用于租租车移动端的ui
 #### 安装
 
 ```Shell
-npm install zzc-design-mobile --save-dev
+npm install zzc-design-pc --save-dev
 ```
 
 #### 使用
-zzc-design-mobile只支持`import`引入。不支持`cmd`。
+zzc-design-pc只支持`import`引入。不支持`cmd`。
 
 引入：
 
 ```JavaScript
-import { Alert, Modal } from 'zzc-design-mobile';
+import { Alert, Modal } from 'zzc-design-pc';
 ```
 
 按需引入
 ```JavaScript
-import Alert from 'zzc-design-mobile/lib/alert';
+import Alert from 'zzc-design-pc/lib/alert';
 ```
 
 #### 温馨提示

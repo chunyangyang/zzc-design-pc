@@ -43,7 +43,7 @@ export default class DemoBox extends Component {
                         <div className='zzc-demo-box-header'>
                             <div className='zzc-demo-box-header-bg' />
                             <div className='zzc-demo-box-search-box'>
-                                <p>{`https://lllllamho.github.io/zzc-design-mobile/demo/dist/html/${index}.html`}</p>
+                                <p>{`https://chunyangyang.github.io/zzc-design-pc/demo/dist/html/${index}.html`}</p>
                             </div>
                         </div>
                         <div className='zzc-demo-box-body'>

@@ -94,7 +94,7 @@ npm run watch //编译demo
 npm run server //编译demo本地服务
 npm run publish //编译demo
 ```
-`publish`和`build`、`watch`有一点不一样，因为`build`和`watch`是开发环境，所以webpack打包的时候会将`zzc-design-mobile`指向外层文件的es文件中去获取。
+`publish`和`build`、`watch`有一点不一样，因为`build`和`watch`是开发环境，所以webpack打包的时候会将`zzc-design-pc`指向外层文件的es文件中去获取。
 
 所以在开发中需要在根目录运行watch，demo目录中也要同时运行watch
 

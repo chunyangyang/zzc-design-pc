@@ -40,7 +40,7 @@ class App extends React.Component {
                 document.querySelector( '.gh-count' ).style.display = 'block';
             }
         };
-        xmlhttp.open( 'GET', 'https://api.github.com/repos/lllllamho/zzc-design-mobile', true );
+        xmlhttp.open( 'GET', 'https://api.github.com/repos/chunyangyang/zzc-design-pc', true );
         xmlhttp.send();
     }
 

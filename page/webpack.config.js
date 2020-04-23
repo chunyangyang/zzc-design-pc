@@ -1,27 +1,27 @@
 module.exports = {
-    devtool: 'source-map',
-    entry: {
-        index: './src/js/index.js'
-    },
-    module: {
-        rules: [{
-            test: /\.md$/,
-            use: [
-                {
-                    loader: 'html-loader'
-                },
-                {
-                    loader: 'markdown-loader',
-                    options: {}
-                }
-            ]
+  devtool: 'source-map',
+  entry: {
+    index: './src/js/index.js'
+  },
+  module: {
+    rules: [{
+      test: /\.md$/,
+      use: [
+        {
+          loader: 'html-loader'
         },
         {
-            test: /\.json$/,
-            use: [{
-                loader: 'json-loader'
-            }]
+          loader: 'markdown-loader',
+          options: {}
         }
-        ]
+      ]
+    },
+    {
+      test: /\.json$/,
+      use: [{
+        loader: 'json-loader'
+      }]
     }
+    ]
+  }
 };

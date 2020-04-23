@@ -22,7 +22,7 @@ jsx
 import React, {Component} from 'react';
 import './index.scss';
 import '../../../style/style.scss';
-import { Button, Animate } from 'zzc-design-mobile';
+import { Button, Animate } from 'zzc-design-pc';
 
 export default class App extends Component {
 
