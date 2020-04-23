@@ -11,7 +11,6 @@
 
 这是一个基于React实现的UI组件框架。
 
-[查看官网](https://chunyangyang.github.io/zzc-design-pc/index.html)
 <a href="https://chunyangyang.github.io/zzc-design-pc/index.html" target="_blank">查看官网</a>
 
 #### 简介
