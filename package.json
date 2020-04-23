@@ -7,10 +7,15 @@
   "scripts": {
     "build": "rm -rf ./es && gulp build",
     "watch": "rm -rf ./es && gulp watch",
+    "compile": "rm -rf ./lib && gulp compile && node ./config/copy.js && npm run build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chunyangyang/zzc-design-pc"
+  },
   "dependencies": {
     "classnames": "^2.2.6",
     "gulp-sass": "^4.0.2",
