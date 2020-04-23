@@ -1,0 +1,50 @@
+@import '../style/base.scss';
+$cls: '.zds-modal';
+#{$cls}-box {
+    width: 304px;
+    overflow: hidden;
+    border-radius: 8px;
+
+    #{$cls}-header {
+        height: 50px;
+        color:$c_333;
+        font-size: $fs_h1;
+        border-bottom: 1px solid $modal_border_color;
+        @include flex();        
+    }
+
+    #{$cls}-body {
+        word-wrap: break-word;
+        max-height: 350px;
+        min-height: 288px;
+        overflow-x: hidden;
+        overflow-y: scroll;
+        -webkit-overflow-scrolling: touch;
+    }
+
+    #{$cls}-footer{
+        width: 100%;
+        overflow: hidden;
+        height: 50px;
+        border-top: 1px solid $modal_border_color;
+        @include flex();        
+        #{$cls}-btn {
+            flex: 1;
+            color: $main;
+            &:not(:first-child) {
+                border-left: 1px solid $modal_border_color;
+            }
+        }
+        &#{$cls}-vertical-footer{
+            flex-direction: column;
+            height: auto;
+            #{$cls}-btn {
+                width: 100%;
+                &:not(:first-child) {
+                    border-left: none;
+                    border-top: 1px solid $modal_border_color;
+                }
+            }
+        }
+    }
+}

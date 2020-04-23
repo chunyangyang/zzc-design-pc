@@ -1,0 +1,23 @@
+{
+  "name": "zzc-mobile",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "ENV=development node --max_old_space_size=4096 ./node_modules/.bin/guido build",
+    "watch": "ENV=development node --max_old_space_size=4096 ./node_modules/.bin/guido watch",
+    "server": "ENV=development node --max_old_space_size=4096 ./node_modules/.bin/guido server",
+    "publish": "ENV=production node --max_old_space_size=4096 ./node_modules/.bin/guido publish"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "classnames": "^2.2.6",
+    "guido": "3.6.6"
+  },
+  "devDependencies": {
+    "moment": "^2.24.0",
+    "react": "16.5.0",
+    "react-dom": "16.5.0"
+  }
+}

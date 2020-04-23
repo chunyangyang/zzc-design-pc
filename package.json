@@ -1,0 +1,48 @@
+{
+  "name": "zzc-design-pc",
+  "name_cn": "租租车主流程UI规范",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./lib/index.js",
+  "scripts": {
+    "build": "rm -rf ./es && gulp build",
+    "watch": "rm -rf ./es && gulp watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "classnames": "^2.2.6",
+    "gulp-sass": "^4.0.2",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "through2": "^3.0.1",
+    "gulp-typescript": "4.0.2",
+    "babel-plugin-transform-runtime": "6.23.0",
+    "babel-eslint": "8.2.1",
+    "eslint": "4.19.1",
+    "eslint-config-airbnb": "16.1.0",
+    "eslint-plugin-import": "2.8.0",
+    "eslint-plugin-jsx-a11y": "6.0.3",
+    "eslint-plugin-react": "7.6.1",
+    "eslint-plugin-typescript": "0.11.0",
+    "typescript-eslint-parser": "14.0.0",
+    "@types/classnames": "2.2.3",
+    "@types/react": "16.3.14",
+    "@types/react-dom": "16.0.5"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "gulp-babel": "^7.0.1",
+    "babel-preset-es2015-rollup": "3.0.0",
+    "babel-preset-latest": "6.24.1",
+    "babel-preset-react": "6.24.1",
+    "babel-preset-stage-0": "6.24.1",
+    "classnames": "2.2.5",
+    "react": "16.5.0",
+    "react-dom": "16.5.0",
+    "moment": "^2.24.0",
+    "better-scroll": "1.11.1"
+  }
+}

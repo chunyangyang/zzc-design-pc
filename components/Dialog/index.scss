@@ -1,0 +1,28 @@
+@import '../style/base.scss';
+$cls: '.zds-dialog';
+
+#{$cls} {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 1003;
+    @include flex();
+
+    #{$cls}-mask {
+        background: rgba(23, 22, 41, .7);
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 999;
+    }
+
+    #{$cls}-box {
+        background: $c_fff;
+        z-index: 1001;
+        position: relative;
+    }
+}
