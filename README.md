@@ -1,4 +1,4 @@
-<h1 align="center">zzc-design-mobile</h1>
+<h1 align="center">zzc-design-pc</h1>
 <p align="center">租租车-PC端UI组件库</p>
 <p align='center'>
 <img alt='npm' src='https://img.shields.io/npm/v/zzc-design-mobile'/>
