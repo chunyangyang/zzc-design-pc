@@ -36,19 +36,18 @@ export default class DemoBox extends Component {
         return (
             <div className='zzc-demo-box'>
                 <div className='markdown-body'>
-                    <h2 id='modal'>在线演示</h2>
+                    <h2 id='modal'>{index}演示</h2>
                 </div>
                 <div className='zzc-demo-box-flex'>
                     <div className='zzc-demo-box-content' ref={( div ) => { this.getDemoBox( div ); }}>
-                        <div className='zzc-demo-box-header'>
+                        {/* <div className='zzc-demo-box-header'>
                             <div className='zzc-demo-box-header-bg' />
                             <div className='zzc-demo-box-search-box'>
                                 <p>{`https://chunyangyang.github.io/zzc-design-pc/demo/dist/html/${index}.html`}</p>
                             </div>
-                        </div>
+                        </div> */}
                         <div className='zzc-demo-box-body'>
-                            <iframe ref={( iframe ) => { this.getFirame( iframe ); }} title='demo-iframe' src={`./demo/dist/html/${index}.html`} />
-
+                            <iframe width="100%" height="200px" ref={( iframe ) => { this.getFirame( iframe ); }} title='demo-iframe' src={`./demo/dist/html/${index}.html`} />
                         </div>
                     </div>
                  
